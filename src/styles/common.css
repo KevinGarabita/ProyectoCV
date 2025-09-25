@@ -12,11 +12,11 @@ body{
 }
 .FotoPerfil{
     border-radius: 50%;
-    width: 200px;
+    width: 250px;
     aspect-ratio: 1;
-    border: 5px solid black;
+    border: 5px solid white;
     margin-top: 45px;
-    margin-left: 30px;
+    margin-left: 70px;
     margin-bottom: 20px;
 }
 .Contenedor{
@@ -62,6 +62,7 @@ h1{
     flex-direction: column;
     background-color: black;
     color: white;
+    padding-left: 20px;
 }
 .Skills .title
 {
@@ -86,3 +87,14 @@ h1{
     margin-left: 12px;
 }
 
+.Lista_Habilidades{
+    display: flex;
+    flex-direction: row;
+    
+}
+.Lista_Habilidades img{
+    width: 100px;
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
