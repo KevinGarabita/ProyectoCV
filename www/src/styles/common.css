@@ -9,8 +9,28 @@ body{
     margin-top: 30px;
     font-size: 15px;
     font-weight: 100;
-    background: linear-gradient(to bottom, orange 15%, white 50%);
+    background: linear-gradient(to bottom, orange 5%, white 50%);
 }
+header {
+  background: #222;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed; /* lo mantiene fijo */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* para que quede encima del contenido */
+}
+
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
 .FotoPerfil{
     border-radius: 50%;
     width: 250px;
@@ -57,12 +77,15 @@ h1{
     font-weight: 100;
 
 }
-.lista_Contacto
+.lista_cursos
 {
     margin-top: 3px;
     margin-bottom: 5px;
     margin-left: 12px;
     line-height: 25px;
+}
+.lista_cursos a{
+    color: black;
 }
 .datos{
     width: 50%;
@@ -155,4 +178,29 @@ p{
   60% {
     transform: translateY(-40px); /* rebote más corto */
   }
+}
+footer {
+  background: #222;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  padding: 50px;
+}
+
+.footer-left p {
+  margin: 5px 0;
+}
+
+.footer-left a {
+  color: #1da1f2; /* azul para enlaces */
+  text-decoration: none;
+}
+
+.footer-left a:hover {
+  text-decoration: underline;
+}
+.footer-left .title
+{
+    color: white;
+    margin-bottom: 20px;
 }
