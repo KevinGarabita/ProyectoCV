@@ -9,16 +9,25 @@
 <body>
     <div class="Contenedor">
         <section class = "datos">
-            <H1>KEVIN <br> GARABITA</H1>
-            <h3><i>Ingeniero de Software</i></h3>
-            <article class="sobre-mi">
-                <h3 class = "title"> Sobre mí</h3>
-                <p class="Descripcion">
-                Soy estudiante de Ingeniería de Software con interés en el desarrollo de aplicaciones, diseño de videojuegos y soluciones tecnológicas innovadoras. Me caracterizo por mi capacidad de aprendizaje rápido, la pasión por crear proyectos que aporten valor y el compromiso con la mejora continua. 
-                Tengo experiencia académica y práctica en programación con C#, Java, Python y JavaScript, así como en el uso de herramientas modernas para el desarrollo web, bases de datos y entornos de colaboración como Git y Docker.
-                Me interesa especialmente el desarrollo de videojuegos 2D en Unity, la aplicación de algoritmos de optimización e inteligencia artificial y el diseño de plataformas digitales que impulsen comunidades creativas. 
-                Busco seguir creciendo como profesional, aportar ideas y adquirir experiencia en entornos colaborativos y ágiles
-                </p>
+            <div class="Header">
+                <H1>KEVIN <br> GARABITA</H1>
+                <h3><i>Ingeniero de Software</i></h3>
+                <article class="sobre-mi">
+                    <h3 class = "title"> Sobre mí</h3>
+                    <p class>
+                    Soy estudiante de Ingeniería de Software con interés en el desarrollo de aplicaciones, diseño de videojuegos y soluciones tecnológicas innovadoras. 
+                    Me caracterizo por mi capacidad de aprendizaje rápido, la pasión por crear proyectos que aporten valor y el compromiso con la mejora continua. 
+                    Busco seguir creciendo como profesional, aportar ideas y adquirir experiencia en entornos colaborativos y ágiles
+                    </p>
+                </article>
+            </div>
+            <article class = "Educacion">
+                <h2 class="title"> Educacion</h2>
+                <div class="Educacion_contenido">
+                    <p>2017-2020 <br> Secundaria</p>
+                    <p>2020-2023 <br> Preparatoria 2</p>
+                    <p>2023-2027 <br> Universidad Modelo </p>
+                </div>
             </article>
             <article class="Contacto">
                 <h2 class = "title">Contacto</h2>
@@ -28,21 +37,25 @@
                     <li><a href="https://github.com/KevinGarabita">github</a></li>
                 </ul>
             </article>
-            <article class = "Educacion">
-                 <h2 class="title"> Educacion</h2>
-                 <p>2017-2020 <br> Secundaria Trunca</p>
-                 <p>2020-2023 <br> Preparatoria 2</p>
-                 <p>2023-2027 <br> Universidad Modelo </p>
-            </article>
         </section>
         <section class = "Skills">
             <img src="src\Images\yo.jpg" alt="" class="FotoPerfil">
             <article class="Experiencia">
-                <h2 class="title">Experiencia</h2>
-                <p>Universidad Modelo 2023-2027</p>
-                <ul class="lista_experiencia">
-                    <li>Trabajé en los proyectos, Kuchau, CreamiArt, BlackCavalier, TrakMusic</li>
-                </ul>
+                 <h2 class="title">Experiencia</h2>
+                <div class="Experiencia_contenido">                
+                    <p>Universidad Modelo 2023-2025</p>
+                    <ul class="lista_experiencia">
+                        <li>Trabajé en los proyectos, Kuchau, CreamiArt, BlackCavalier, TrakMusic</li>
+                    </ul>
+                    <p>Microsoft 2025-2027</p>
+                    <ul class="lista_experiencia">
+                        <li>Trabajé de CEO en la empresa Microsoft</li>
+                    </ul>
+                    <p>Meta 2027-2028</p>
+                    <ul class="lista_experiencia">
+                        <li>Le quité la empresa a Mark Zuckerberg</li>
+                    </ul>
+                </div>
             </article>
             <article class = "Habilidades">
                 <h2 class="title">Habilidades</h2>
@@ -56,11 +69,27 @@
             </article>
             <article class="Idiomas">
                 <h2 class="title">Idiomas</h2>
-                <ul class = "Lista_Idiomas">
+                <ul class = "Lista_idiomas">
                     <li>Español - Nativo</li>
                     <li>Ingles - 70%</li>            
                 </ul>
             </article>
+        </section>
+    </div>
+    <div class = "Contenedor2">
+        <section class="BlackCavalier">
+            <H2 class="title">BlackCavalier </H2>
+            <a href="https://papugames.itch.io/blackcavalier" target="_blank">
+                <img src="src\Images\BlackCavalier.png" class="bounce">
+            </a>
+        </section>
+        <section class="Kuchau">
+            <h2 class="title">Kuchau</h2>
+            <img src="src\Images\Kuchau.png" class="bounce">
+        </section>
+        <section class="TrakzMusic">
+            <h2 class="title">TrakzMusic</h2>
+            <img src="src\Images\Trakz.png" class="bounce">
         </section>
     </div>
 </body>
