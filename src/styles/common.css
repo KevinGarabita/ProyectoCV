@@ -108,6 +108,7 @@ h1{
 {
     color: white; 
     margin-left: 20px;
+    margin-top: 10px;
 }
 .sobre-mi{
     margin-top: 20px;
@@ -202,7 +203,4 @@ footer {
 {
     color: white;
     margin-bottom: 20px;
-}
-.lista_experiencia{
-    margin-top: 5px;
 }
